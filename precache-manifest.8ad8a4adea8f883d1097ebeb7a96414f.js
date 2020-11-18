@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "527983e849dd4afe709f70fe713dafa5",
+    "revision": "8e23ea503c78f6a8b77ac419b40d42c5",
     "url": "/seainfo6150-final-project-webapp/index.html"
   },
   {
