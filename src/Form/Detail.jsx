@@ -17,7 +17,7 @@ const Detail = (props) => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        "http://demo3130502.mockable.io/coupon"
+        "https://demo3130502.mockable.io/coupon"
       );
       const responseJson = await response.json();
       setFetchedData(responseJson);
@@ -26,7 +26,7 @@ const Detail = (props) => {
 
     const fetchData1 = async () => {
       const response = await fetch(
-        "http://demo3130502.mockable.io/50states"
+        "https://demo3130502.mockable.io/50states"
       );
       const responseJson = await response.json();
       setFetchedData1(responseJson);

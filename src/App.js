@@ -58,7 +58,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        "http://demo3130502.mockable.io/joliesjewelry"
+        "https://demo3130502.mockable.io/joliesjewelry"
       );
       const responseJson = await response.json();
       setFetchedData(responseJson);
@@ -66,7 +66,7 @@ function App() {
     };
     const fetchData1 = async () => {
       const response = await fetch(
-        " http://demo3130502.mockable.io/joliescommunity"
+        " https://demo3130502.mockable.io/joliescommunity"
       );
       const responseJson = await response.json();
       setFetchedData1(responseJson);
@@ -75,7 +75,7 @@ function App() {
 
     const fetchData2 = async () => {
       const response = await fetch(
-        "http://demo3130502.mockable.io/joliesquestion"
+        "https://demo3130502.mockable.io/joliesquestion"
       );
       const responseJson = await response.json();
       setFetchedData2(responseJson);
