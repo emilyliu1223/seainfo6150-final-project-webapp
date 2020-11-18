@@ -6,24 +6,31 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Discount(props) {
 
-    function display(a){
+    function display(a,e){
     document.getElementsByClassName("div1")[0].style.display="none";
+    document.getElementsByClassName("insta_container")[0].style.backgroundColor="white";
+    document.getElementsByClassName("insta_container")[0].style.color="#d3c09a";
     document.getElementsByClassName("div2")[0].style.display="none";
+    document.getElementsByClassName("insta_container2")[0].style.backgroundColor="white";
+    document.getElementsByClassName("insta_container2")[0].style.color="#d3c09a";
     document.getElementsByClassName("div3")[0].style.display="none";
+    document.getElementsByClassName("insta_container3")[0].style.backgroundColor="white";
+    document.getElementsByClassName("insta_container3")[0].style.color="#d3c09a";
     document.getElementsByClassName(a)[0].style.display="block";
-    console.log(document.getElementsByClassName(a)[0].style.display);
+    document.getElementsByClassName(e.target.className)[0].style.backgroundColor="#d3c09a";
+    document.getElementsByClassName(e.target.className)[0].style.color="white";
     }
 
     return (
         <div className="discount_div" >
             <div className="dicount_1">
-            <div className="insta_container" onClick={()=>display("div1")}>
+            <div className="insta_container" onClick={(e)=>display("div1",e)}>
                Step 1
             </div>
-            <div className="insta_container" onClick={()=>display("div2")} >
+            <div className="insta_container2" onClick={(e)=>display("div2",e)} >
               Step 2
             </div>
-            <div className="insta_container" onClick={()=>display("div3")}>
+            <div className="insta_container3" onClick={(e)=>display("div3",e)}>
                Step 3
             </div>
             </div>

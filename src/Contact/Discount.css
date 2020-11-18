@@ -60,6 +60,22 @@
     border:0.1rem solid white;
     /* font-family: 'Abril Fatface', cursive; */
 }
+.insta_container2{
+    width: 100%;
+    color: #d3c09a;
+    font-size: 1.2rem;
+    font-weight: 900;
+    border:0.1rem solid white;
+    /* font-family: 'Abril Fatface', cursive; */
+}
+.insta_container3{
+    width: 100%;
+    color: #d3c09a;
+    font-size: 1.2rem;
+    font-weight: 900;
+    border:0.1rem solid white;
+    /* font-family: 'Abril Fatface', cursive; */
+}
 
 .insta_dis{
     display: flex;

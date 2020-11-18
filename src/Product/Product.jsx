@@ -16,26 +16,20 @@ function Product (props) {
               <div className="bar_container" key={item._id}>
                   <div className="left">
                   <div className="bar_img_container">
-                    <img className="img"src={item.description[0][0]} alt={item.description[0][0]} onMouseOver={(e)=>{
+                    <img className="img"src={item.description[0][0]} alt={item.description[0][0]} onClick={(e)=>{
                           setTarget(e.target.src)
-                    }} onMouseOut={(e)=>{
-                        setTarget("")
-                  }} />
+                    }} />
                     </div>
                     <div className="bar_img_container">
-                    <img className="img" src={item.description[0][1]} alt={item.description[0][1]} onMouseOver={(e)=>{
+                    <img className="img" src={item.description[0][1]} alt={item.description[0][1]} onClick={(e)=>{
                           setTarget(e.target.src)
-                    }} onMouseOut={(e)=>{
-                        setTarget("")
-                  }}/>
+                    }} />
                   
                   </div>
                   <div className="bar_img_container">
-                    <img className="img" src={item.description[0][2]} alt={item.description[0][2]} onMouseOver={(e)=>{
+                    <img className="img" src={item.description[0][2]} alt={item.description[0][2]} onClick={(e)=>{
                           setTarget(e.target.src)
-                    }} onMouseOut={(e)=>{
-                        setTarget("")
-                  }}/>
+                    }} />
                   
                   </div>
                   </div>

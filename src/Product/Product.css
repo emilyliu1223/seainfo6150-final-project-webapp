@@ -24,9 +24,8 @@
 .middle{
     margin:2rem;
     float: none;
-    background-color: teal;
     width: 25rem;
-    height: 25rem;
+    height: 100%;
 }
 .middle img{
     width: 100%;
@@ -55,7 +54,7 @@
   }
   .img{
       width: 400px;
-      height: 400px;
+      height: 100%;
   }
  
   
@@ -103,7 +102,7 @@
     }
     .img{
         width: 300px;
-        height: 300px;
+        height: 100%;
     }
     .middle{
         display: none;
@@ -163,7 +162,7 @@
 }
 .img{
     width: 300px;
-    height: 300px;
+    height: 100%;
 }
 .middle{
     display: none;
@@ -222,7 +221,7 @@
 }
 .img{
     width: 300px;
-    height: 300px;
+    height: 100%;
 }
 .middle{
     display: none;
@@ -302,9 +301,9 @@
 .middle{
     margin:2rem;
     float: none;
-    background-color: teal;
+  
     width: 25rem;
-    height: 25rem;
+    height: 100%;
     display: block;
     margin-left: auto;
 }
@@ -369,9 +368,9 @@
 .middle{
     margin:2rem;
     float: none;
-    background-color: teal;
+   
     width: 25rem;
-    height: 25rem;
+    height: 100%;
     display: block;
     margin-left: auto;
 }
