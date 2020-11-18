@@ -223,7 +223,7 @@ function App() {
           exact
           render={() => <Contact content={externalContent} />}
         />
-        <Route component={Error} />
+        <Route path="/error" component={Error} />
       </Switch>
       <Footer />
     </>
