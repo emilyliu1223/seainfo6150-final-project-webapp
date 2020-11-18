@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+  }
+  .row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:10px;
+    grid-row-gap: 20px;
+    align-content: center;
+    width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+.column {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+    
+  }
+  
+  .column img{
+    margin-top: 12px;
+    width: 100%;
+    height: fit-content;
+    margin-left:auto;
+    margin-right: auto;
+    
+  }
+  .slogan{
+      color:#c87941;
+      font-size: 1.4rem;
+      padding: 1.2rem;
+      margin-top: 2%;
+    }
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }   */
+  .home_section1{
+    height:fit-content;
+    width: 60%;
+    /* background-color: #d3c09a; */
+    margin-top: 3%;
+    /* margin-bottom: 100px; */
+    padding:1%;
+    margin-bottom: 4%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top:0.2rem solid  #d3c09a;
+    border-bottom:0.2rem solid  #d3c09a;
+   
+}
+ .home_section1 p{
+     color:black;
+     /* color: #d3c09a; */
+     width: 70%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 0;
+     
+ }
+ .home_section1 .share_name{
+    font-family: 'Abril Fatface', cursive;
+ }
+ .home_section1 .share_time{
+    font-family: 'Abril Fatface', cursive;
+ }
+ 
+ .home_section2{
+    height:fit-content;
+    padding:1%;
+    width: 100%;
+    /* background-color: #d3c09a; */
+   
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-top:0.2rem solid  #d3c09a;
+    border-bottom:0.2rem solid  #d3c09a; */
+    background-color: #d3c09a;
+    display: flex;
+    flex-direction: row;
+   
+}
+ .home_section2 h2{
+    color:white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Abril Fatface', cursive;
+    
+}
+.magazine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8%;
+}
+.magazine div{
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.magazine div a h2{
+    font-family: 'Abril Fatface', cursive;
+    color:black;
+    text-decoration: none;
+    border-bottom: 0.1rem solid black;
+    border-top: 0.1rem solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.magazine div h2:hover{
+    color:#d3c09a;
+    text-decoration: none;
+}
+.magazine div p{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: lighter;
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.magazine div .article_title{
+    font-family: 'Abril Fatface', cursive;
+    color:black;
+    text-decoration: none;
+}
+.magazine div a{
+    font-family: 'Abril Fatface', cursive;
+    color:black;
+    
+}
+.magazine div a:active{
+    color:black;
+    
+}
+.magazine div img{
+    width: 100%;
+    height: 100%;
+}
+.magazine div:hover img{
+    opacity: 0.5;
+    width: 105%;
+    height: 105%;
+  }
+.social_container .social {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 20%;
+    /* margin-bottom: auto;
+    margin-top: auto; */
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.social_container .social div{
+    margin: auto;
+    height: fit-content;
+
+   
+   
+}
+.social_container .social div a i{
+    font-size: 1.2rem;
+    padding:4%;
+    color:#d3c09a;
+}
+
+.social_container{
+    width: 100%;
+    margin:auto;
+    height: fit-content;
+}
+.contact_us{
+    margin-top:5%;
+    border-top: 0.2rem solid #d3c09a;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+.contactus_div{
+    margin-left: auto;
+    width: 70%;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.contactus_div div p{
+    color:#d3c09a;
+    font-family: 'Abril Fatface', cursive;
+}
+
+  @media screen and (min-width: 600px) {
+    
+  .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:10px;
+    grid-row-gap: 20px;
+    align-content: center;
+    width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+  .magazine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8%;
+}
+.magazine div{
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+}
+  @media screen and (max-width: 600px) {
+    .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap:10px;
+        grid-row-gap: 20px;
+        align-content: center;
+        width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+    
+      }
+      .magazine{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 8%;
+    }
+    .magazine div{
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin: auto;
+        
+    }
+    
+  }
+  @media screen and (min-width: 768px) {
+    .row{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap:10px;
+        grid-row-gap: 20px;
+        align-content: center;
+        width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+    
+      }
+      .magazine{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 8%;
+    }
+    .magazine div{
+        width: 40%;
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    }
+    
+  }
+  @media screen and (min-width: 992px) {
+
+    .row{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap:10px;
+        grid-row-gap: 20px;
+        align-content: center;
+        width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+    
+      }
+      .magazine{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 8%;
+    }
+    .magazine div{
+        width: 40%;
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    }
+    
+}
+ 
+   
+  

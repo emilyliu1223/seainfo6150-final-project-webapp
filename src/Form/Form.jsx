@@ -1,33 +1,13 @@
 import React, { useState } from "react";
+import "./Form.css"
 
-const Form = () => {
-  const [submittedForm, setSubmittedForm] = useState();
-  function onSubmit(e) {
-    e.preventDefault();
-    const data = new FormData(e.target);
-    setSubmittedForm(data);
-  };
-
+import { Link } from "react-router-dom";
+const Form = (props) => {
+  var count=0;
+  
   return (
-    <div>
-      {
-        submittedForm ? (
-          <div>Your form entry was {submittedForm.get("myText")} and {submittedForm.get("myDropdown")}</div>
-        ) : (
-          <form onSubmit={onSubmit}>
-            <label htmlFor="myTextId">Input</label>
-            <input type="text" name="myText" id="myTextId"/>
-
-            <label htmlFor="myDropdownId">Input</label>
-            <select name="myDropdown" id="myDropdownId">
-              <option value="foo">Foo</option>
-              <option value="bar">Bar</option>
-              <option value="baz">Baz</option>
-            </select>
-            <input type="submit" value="Send it" />
-          </form>
-        )
-      }
+    <div className="div">
+            <Link className="form_link" to={`/bar/${props.item.cate}/${props.item._id}/${++count}`}>Checkout here</Link>
     </div>
   )
 }

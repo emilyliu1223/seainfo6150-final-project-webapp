@@ -1,0 +1,124 @@
+*{
+    font-family: 'Cinzel', serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+nav{
+    background-color: #d3c09a;
+    height: fit-content;
+    
+    
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 0;
+    width: 100%;
+    height: fit-content;
+    margin-block-end: 0;
+}
+li {
+    
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+  }
+  p{
+    padding: 14px 28px;
+  }
+  li:hover div p{
+    border:0.1rem solid #c87941;
+    font-weight: 800;
+    font-size: 1rem;
+  }
+
+.link{
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 28px;
+  text-decoration: none;
+  }
+
+  li .link:hover {
+    border:0.1rem solid #c87941;
+    font-weight: 800;
+    font-size: 1rem;
+    
+  }
+ 
+  .brand{
+    /* position: absolute; */
+    
+    font-weight: 800;
+    font-size: 3.8rem;
+    color: white;
+   display: inline-flex;
+   flex-direction: column;
+    
+    
+    /* display: inline-flex;
+    flex-direction: column; */
+    
+    /* margin-left: 43%; */
+    overflow: hidden;
+   
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d3c09a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content .link {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content .link:hover {
+    background-color: #c87941;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    color: white;
+    
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border:0.1rem solid #c87941;
+  }
+  
+  @media only screen and (max-width: 823px){
+      
+     ul{ 
+         padding-bottom: 5px;
+         height: fit-content;
+         width: 100%;
+     }
+    
+     nav{
+        height: fit-content;
+     }
+     .link{
+        display: flex;
+        color: white;
+        text-align: center;
+        padding: 14px 10px;
+        text-decoration: none;
+        }
+        p{
+            padding: 14px 10px;
+          }
+    
+     
+  }
+ 

@@ -1,0 +1,37 @@
+.question_div{
+   /* border-top:0.1rem solid #d3c09a; */
+   border-bottom:0.1rem solid #d3c09a;
+   margin-top: 3%;
+}
+.question_q{
+    color:black;
+    font-size: 1.2rem;
+    margin-block-start: 0;
+    padding: 0;
+   
+}
+.question_a{
+    color:black;
+    font-size: 1rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block-start:0 ;
+}
+.question{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.question_sec{
+    width: 60%;
+    margin-top: 5%;
+}
+.question_sec div{
+    width: 100%;
+    color:#c87941;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.2rem;
+}
+
+

@@ -1,0 +1,588 @@
+/* .contact_div div{
+    display: flex;
+    font-family: 'Abril Fatface', cursive;
+    flex-direction: column;
+    justify-content: center;
+   
+} */
+
+.employee_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    
+    
+}
+.employee_div .designer_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 3%;
+    padding: 3%;
+    width: 90%;
+    font-family: 'Abril Fatface', cursive;
+    border:0.2rem solid #d3c09a;
+    
+}
+.employee_div .designer_div .designer_img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin: auto;
+    height: fit-content;
+  
+}
+.employee_div .designer_div .designer_info{
+    margin: auto;
+    font-family: 'Abril Fatface', cursive;
+    width: fit-content;
+    
+}
+.employee_div .designer_div .designer_img img{
+    margin: auto;
+    margin-right: auto;
+    margin-left:auto;
+    width: 350px;
+    height: 100%;
+}
+.employee_div .designer_div .designer_info p{
+    
+    text-align: left;
+    margin: 0;
+}
+.employee_div .designer_div .designer_info h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: left;
+    color:black;
+}
+.employee_div .designer_div .designer_info a{
+    text-decoration: underline;
+    color:black;
+}
+
+
+.contact_div .contact_sec .service_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top:0.1rem solid black;
+    border-bottom:0.4rem solid black;
+    margin-top: 0%;
+}
+.service_div div{
+    
+    height: 100%;
+    color:black;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+   
+}
+.service_div div p i{
+    font-size: 110%;
+    padding-right: 10px;
+    
+}
+.service_div div div a i{
+    font-size: 130%;
+    height: fit-content;
+    margin-bottom: 0px;
+    color:black;
+    padding-right: 10px;
+  
+}
+.service_div .social {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 30%;
+    margin-bottom: auto;
+    margin-top: auto;
+    justify-content: flex-end;
+    margin-left: auto;
+   
+}
+.service_div .social div{
+    margin-right: 0;
+    height: 100%;
+    padding-right: 10px;
+}
+
+
+.service_div div p{
+    margin:auto;
+}
+
+.contact_sec div .store_name{
+    color:black;
+}
+.employee_div div h2{
+    color:#d3c09a;
+    width: fit-content;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Abril Fatface', cursive;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    height: fit-content;
+}
+
+.contact_div .contact_sec {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    /* background-color: #d3c09a; */
+   
+}
+.contact_div .contact_sec h2{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;;
+    width: 100%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+   
+    
+    
+}
+.contact_div .contact_sec .com_div{
+    margin-bottom: 5%;
+     height: 500px;
+     width: 100%;
+}
+.contact_div .contact_sec .line_div{
+    background-image: url("https://gemgossip.com/wp-content/uploads/2017/12/38397754262_19d59b9fc1_b.jpg");
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.com_div{
+    /* background-color:#d3c09a ; */
+    background-color: black;
+    margin-top: 5%;
+    height: fit-content;
+    /* padding-top:5%;
+    padding-bottom:5%; */
+    color:white;
+    display: flex;
+    flex-direction: row;
+    
+}
+.com_div h2{
+    color: #d3c09a;
+    margin-top:0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.com_div .about_div{
+    
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    
+}
+.com_div .about_div div{
+    width: 100%;
+    margin-left: 0;
+}
+
+.com_div .about_div div p .about_link{
+    color:white;
+    text-decoration: none;
+}
+.com_div .about_div div p .about_link:hover{
+   color:#d3c09a;
+   font-size: 110%;
+}
+
+.com_div .about_div div p{
+    text-align: center;
+    margin: 0;
+   
+}
+.com_div .container_div{
+    height: 100%;
+    padding-right: 2%;
+    margin-left: 0%;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+.comeimg_div{
+    height: fit-content;
+    margin-top: auto;
+    position: relative;
+    text-align: center;
+    margin-bottom: auto;
+    width: auto;
+}
+.comeimg_div img{
+    width: auto;
+    position: relative;
+    text-align: center;
+    height: 370px;
+}
+.comeimg_div1{
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    text-align: center;
+    width: 40%;
+}
+.comeimg_div1 img{
+    height: 90%;
+    width: 90%;
+    position: relative;
+}
+.comeimg_img{
+    width: 300px;
+    
+}
+.opacity{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.comeimg_div img:hover {
+    opacity: 0.3;
+  }
+  
+  .comeimg_div img:hover .opacity{
+    opacity: 1;
+   
+  }
+  .comeimg_div1 img:hover {
+    opacity: 0.3;
+  }
+  
+  .comeimg_div1 img:hover .opacity{
+    opacity: 1;
+    
+  }
+
+  .comeimg_div .comeimg_p{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  .background_div{
+      border-top: 0.2rem solid #d3c09a;
+      margin-top: 5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.2rem solid #d3c09a;
+  }
+  .background_div p{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .line_div p{
+    /* position: absolute; */
+    margin-top: 2%;
+    margin-left: 88%;
+    /* transform: translate(-50%, -50%); */
+    color:white;
+    writing-mode: vertical-rl; 
+    font-size: 2rem;
+  }
+  
+
+/* @media screen and (min-width:600px){
+    .employee_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;   
+        
+    }
+    .com_div .container_div{
+        height: 100%;
+        padding: 0;
+       
+        display: flex;
+        width: fit-content;
+        margin:auto;
+        flex-direction: column;
+    }
+    .employee_div .designer_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 3%;
+        padding: 3%;
+        width: 80%;
+        font-family: 'Abril Fatface', cursive;
+        border:0.2rem solid #d3c09a;
+        
+    }
+    .employee_div .designer_div .designer_img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        max-height: fit-content;
+      
+    }
+    .employee_div .designer_div .designer_info{
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Abril Fatface', cursive;
+        width: 400px;
+        
+    }
+    .employee_div .designer_div .designer_info p{
+    
+        text-align: center;
+        margin: 0;
+    }
+    .employee_div .designer_div .designer_info h2{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: 'Abril Fatface', cursive;
+        text-align: center;
+        color:black;
+}
+.contact_div .contact_sec .service_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top:0.1rem solid black;
+    border-bottom:0.4rem solid black;
+    margin-top: 0%;
+}
+.contact_div .contact_sec .com_div{
+    margin-bottom: 5%;
+     height: 100%;
+     width: 100%;
+     padding-top: 50px;
+    padding-bottom: 50px;
+}
+.com_div{
+   
+    background-color: black;
+    margin-top: 5%;
+    height: 400px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.com_div .about_div div{
+    width: fit-content;
+    margin:auto;
+}
+} */
+
+
+
+
+/* @media screen and (max-width:600px){
+    .employee_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        
+        
+    }
+    .com_div .about_div div{
+        width: fit-content;
+        margin:auto;
+    }
+    .contact_div .contact_sec .com_div{
+        margin-bottom: 5%;
+         height: 100%;
+         width: 100%;
+         padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    .com_div .container_div{
+        height: 100%;
+        padding: 0;
+       
+        display: flex;
+        width: fit-content;
+        margin:auto;
+        flex-direction: column;
+    }
+    .employee_div .designer_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 3%;
+        padding: 3%;
+        width: 80%;
+        font-family: 'Abril Fatface', cursive;
+        border:0.2rem solid #d3c09a;
+        
+    }
+    .employee_div .designer_div .designer_img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        max-height: fit-content;
+      
+    }
+    .employee_div .designer_div .designer_info{
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Abril Fatface', cursive;
+        width: 400px;
+        
+    }
+    .employee_div .designer_div .designer_info p{
+    
+        text-align: center;
+        margin: 0;
+    }
+    .employee_div .designer_div .designer_info h2{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: 'Abril Fatface', cursive;
+        text-align: center;
+        color:black;
+}
+.contact_div .contact_sec .service_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top:0.1rem solid black;
+    border-bottom:0.4rem solid black;
+    margin-top: 0%;
+}
+.com_div{
+   
+    background-color: black;
+    margin-top: 5%;
+    height: 400px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    
+}
+} */
+
+@media (min-width:100px) and (max-width:1215px){
+    .employee_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;   
+        
+    }
+    .com_div .container_div{
+        height: 100%;
+        padding: 0;
+        /* margin-left: 0%; */
+        display: flex;
+        width: fit-content;
+        margin:auto;
+        flex-direction: column;
+    }
+    .employee_div .designer_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 3%;
+        padding: 3%;
+        width: 80%;
+        font-family: 'Abril Fatface', cursive;
+        border:0.2rem solid #d3c09a;
+        
+    }
+    .employee_div .designer_div .designer_img{
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        /* max-height: fit-content; */
+      
+    }
+    .employee_div .designer_div .designer_info{
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Abril Fatface', cursive;
+       
+        
+    }
+    .employee_div .designer_div .designer_info p{
+        font-size: 1rem;
+        text-align: center;
+        margin: auto;
+    }
+    .employee_div .designer_div .designer_info h2{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: 'Abril Fatface', cursive;
+        text-align: center;
+        color:black;
+}
+.contact_div .contact_sec .service_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top:0.1rem solid black;
+    border-bottom:0.4rem solid black;
+    margin-top: 0%;
+}
+.contact_div .contact_sec .com_div{
+    margin-bottom: 5%;
+     height: 100%;
+     width: 100%;
+     padding-top: 50px;
+    padding-bottom: 50px;
+}
+.com_div{
+    /* background-color:#d3c09a ; */
+    background-color: black;
+    margin-top: 5%;
+    height: fit-content;
+    padding-top:5%;
+    padding-bottom:5%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.com_div .about_div div{
+    width: 100%;
+    margin:auto;
+}
+}
